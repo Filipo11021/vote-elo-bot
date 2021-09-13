@@ -47,7 +47,7 @@ const eloVote = {
       return 'podaj liczbe'
     } else {
        eloVote.vote(username, valueNum)
-      return 'zaglosowano'
+      return 'zaliczono glos'
     }
   },
 }

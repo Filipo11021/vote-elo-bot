@@ -14,7 +14,7 @@ const config = {
     username: process.env.TWITCH_USERNAME,
     password: process.env.TWITCH_PASSWORD,
   },
-  channels: ['filipo11'],
+  channels: [process.env.TWITCH_STREAMER],
 }
 
 const client = new tmi.Client(config)
