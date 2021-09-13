@@ -38,8 +38,7 @@ const eloVote = {
   endValidation(isMod) {},
   voteValidation(value, username) {
     const valueNum = +value
-//this.checkUnique(username)
-    if (2 ===3) {
+    if (this.checkUnique(username)) {
       return 'juz glosowales'
     } else if (value < 0 || value >= 3200) {
       return 'nierealny ranking'
